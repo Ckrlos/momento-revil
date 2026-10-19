@@ -1,0 +1,7 @@
+com/duoc/centralemergencias/consumer/listener/BomberosConsumer.class
+com/duoc/centralemergencias/consumer/config/RabbitNames.class
+com/duoc/centralemergencias/consumer/listener/PoliciaConsumer.class
+com/duoc/centralemergencias/consumer/listener/AmbulanciaConsumer.class
+com/duoc/centralemergencias/consumer/config/RabbitConfig.class
+com/duoc/centralemergencias/consumer/dto/Emergencia.class
+com/duoc/centralemergencias/consumer/ConsumerApplication.class

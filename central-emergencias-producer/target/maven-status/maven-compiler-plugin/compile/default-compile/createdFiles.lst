@@ -1,0 +1,6 @@
+com/duoc/centralemergencias/producer/config/RabbitNames.class
+com/duoc/centralemergencias/producer/controller/EmergenciaController.class
+com/duoc/centralemergencias/producer/ProducerApplication.class
+com/duoc/centralemergencias/producer/config/RabbitConfig.class
+com/duoc/centralemergencias/producer/service/EmergenciaProducer.class
+com/duoc/centralemergencias/producer/dto/EmergenciaRequest.class

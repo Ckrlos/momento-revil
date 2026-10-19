@@ -1,0 +1,27 @@
+meta {
+  name: Checkpoint 2 - Robo (Santiago Centro)
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/emergencias
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "tipo": "ROBO",
+    "ubicacion": "Santiago Centro",
+    "descripcion": "Robo en un local comercial"
+  }
+}
+
+docs {
+  Primer evento del Checkpoint 2 (Consumer detenido). Debe quedar como mensaje Ready en cada cola.
+}

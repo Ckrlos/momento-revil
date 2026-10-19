@@ -1,0 +1,6 @@
+/home/ckrlos/Escritorio/clase-cloud/momento-revil/central-emergencias/central-emergencias-producer/src/main/java/com/duoc/centralemergencias/producer/ProducerApplication.java
+/home/ckrlos/Escritorio/clase-cloud/momento-revil/central-emergencias/central-emergencias-producer/src/main/java/com/duoc/centralemergencias/producer/config/RabbitConfig.java
+/home/ckrlos/Escritorio/clase-cloud/momento-revil/central-emergencias/central-emergencias-producer/src/main/java/com/duoc/centralemergencias/producer/config/RabbitNames.java
+/home/ckrlos/Escritorio/clase-cloud/momento-revil/central-emergencias/central-emergencias-producer/src/main/java/com/duoc/centralemergencias/producer/controller/EmergenciaController.java
+/home/ckrlos/Escritorio/clase-cloud/momento-revil/central-emergencias/central-emergencias-producer/src/main/java/com/duoc/centralemergencias/producer/dto/EmergenciaRequest.java
+/home/ckrlos/Escritorio/clase-cloud/momento-revil/central-emergencias/central-emergencias-producer/src/main/java/com/duoc/centralemergencias/producer/service/EmergenciaProducer.java

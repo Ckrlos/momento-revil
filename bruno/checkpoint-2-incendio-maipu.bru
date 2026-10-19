@@ -1,0 +1,27 @@
+meta {
+  name: Checkpoint 2 - Incendio (Maipu)
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/emergencias
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "tipo": "INCENDIO",
+    "ubicacion": "Maipú",
+    "descripcion": "Incendio en una vivienda"
+  }
+}
+
+docs {
+  Segundo evento del Checkpoint 2 (Consumer detenido). Debe quedar como mensaje Ready en cada cola.
+}

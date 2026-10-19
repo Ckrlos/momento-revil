@@ -1,0 +1,27 @@
+meta {
+  name: Checkpoint 2 - Accidente (Providencia)
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/emergencias
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "tipo": "ACCIDENTE",
+    "ubicacion": "Providencia",
+    "descripcion": "Colisión vehicular"
+  }
+}
+
+docs {
+  Tercer evento del Checkpoint 2 (Consumer detenido). Debe quedar como mensaje Ready en cada cola.
+}

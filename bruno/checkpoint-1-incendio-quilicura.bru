@@ -1,0 +1,28 @@
+meta {
+  name: Checkpoint 1 - Incendio (Quilicura)
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseUrl}}/emergencias
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "tipo": "INCENDIO",
+    "ubicacion": "Quilicura",
+    "descripcion": "Incendio en una bodega"
+  }
+}
+
+docs {
+  Evento de ejemplo del Checkpoint 1 (funcionamiento normal). Debe verse en consola del Consumer:
+  POLICÍA/BOMBEROS/AMBULANCIA recibió: INCENDIO | Quilicura | Incendio en una bodega
+}
